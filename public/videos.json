@@ -1,0 +1,218 @@
+[
+    {
+
+        "id": "video1",
+        "title": "Data Covid 19",
+        "description": "El sistema lee el código QR de las cedulas colombianas y decodifica los datos de identificación, nombres, apellidos, fecha de nacimiento, sexo, RH, geolocalización automáticamente y almacena los datos en base de datos local.",
+        "fetch": "Agosto de 2020",
+        "state": "OFF-LINE",
+        "url": "https://www.youtube.com/embed/C2OBPEzWOdY",
+        "technologies": 
+            {
+                "items": ["Java","sqLite","XML","Zxing","IDE Android Studio Version 3.5"]
+            },
+        "requirements": 
+            {
+                "items": ["Lectura QR cédula colombiana","Almacenamiento de datos recibidos de cédula","Geolocalización de sitio donde se toma la lectura.","Ingreso de datos de temperatura corporal, nota, PCR covid.","Listado de lectura con datos leidos de cédula.", "Base de datos local sqLite."]
+            }
+        
+    },
+
+    {
+
+        "id": "video2",
+        "title": "CECEP",
+        "description": "Sistema para medir la posible deserción escolar (Alumnos) de  diferentes instituciones educativas con modelos estadísticos.",
+        "fetch": "Enero de 2020",
+        "state": "OFF-LINE",
+        "url": "https://www.youtube.com/embed/0ymLNJsQ8IQ",
+        "technologies": 
+            {
+                "items": ["Phyton","Flask","HTML5","CSS3","jQuery","QrCode","phpmyadmin"]
+            },
+        "requirements": 
+            {
+                "items": [
+                "Autenticación de usuarios. ",
+                "Registro de instituciones.",
+                "Upload de datos en formato excel (.xlsx)  para análisis.",
+                "Panel de administración con progresión.",
+                "Historial de archivos subidos.",
+                "Base de datos Relacional(MySql)."
+                ]
+            }
+        
+    },
+    {
+
+        "id": "video3",
+        "title": "SISAHO",
+        "description": "Sistema para administración de hoteles (SISAHO), gestiona reservas, clientes, tarifas, ventas de productos, habitaciones, inventarios facturación electrónica y mas.",
+        "fetch": "Octubre de 2018",
+        "state": "OFF-LINE",
+        "url": "https://www.youtube.com/embed/RgPZAnVtrAs",
+        "technologies": 
+            {
+                "items": ["PHP","Laravel","HTML5","CSS3","jQuery","DomPDF","Socialite","Laravel  Versión 5.3", "phpmyadmin"]
+            },
+        "requirements": 
+            {
+                "items": [
+                    "Autenticación de usuarios.",
+                    "Registro de sucursales.",
+                    "Generar de archivos pdf.",
+                    "Registro de productos ofrecidos.",
+                    "Registro de empleados",
+                    "Registro de Habitaciones",
+                    "Registro redes sociales",
+                    "Pedidos realizados por el cliente en tiempo semi-real.",
+                    "Inventario .",
+                    "Generar informes completos del  hotel en archivos .pdf",
+                    "Base de datos relacional (MySql)."
+                ]
+            }
+        
+    },
+    {
+
+
+        "id": "video4",
+        "title": "Mi Menú Pro",
+        "description": "Sistema para restaurantes contiene todas las herramientas necesarias para administrar exitosamente un restaurante sin importar si tienes una o varias sucursales, el identificador se crear a partir de códigos QR.",
+        "fetch": "Abril de 2021",
+        "state": "OFF-LINE",
+        "url": "https://www.youtube.com/embed/LpXfuaN0lgg",
+        "technologies": 
+            {
+                "items": ["PHP","Laravel","HTML5","CSS3","jQuery","DomPDF","Socialite","QrCode", "phpmyadmin", "MySql"]
+            },
+        "requirements": 
+            {
+                "items": [
+                    "autenticación de usuarios",
+                    "Registro de sucursales",
+                    "Generar el código QR asociado a la sucursal",
+                    "Registro de productos ofrecidos",
+                    "Registro de empleados",
+                    "Pedidos realizados por el cliente en tiempo semi-real",
+                    "Inventario de materia prima",
+                    "Personaliza la pantalla de menú según los productos ofrecidos por el restaurante",
+                    "Organiza artículos y categorías de diferentes tipos de productos",
+                    "Los clientes pueden visualizar el menú creado con la lectura de QR",
+                    "Selecciona múltiples plantillas para mostrar los productos ofrecidos",
+                    "Base de datos relacional (MySql)"
+                ]
+            }
+        
+    },
+    {
+
+        "id": "video5",
+        "title": "Semáforo Bluetooth",
+        "description": "El sistema esta desarrollado con el objetivo de cambiar los tiempos de  un grupo de semáforos utilizando un app Android  y un dispositivo esp32 utilizando el protocolo de comunicación bluetooth 2.0.",
+        "fetch": "Febrero de 2023",
+        "state": "OFF-LINE",
+        "url": "https://www.youtube.com/embed/2PSjtZm5LaI",
+        "technologies": 
+            {
+                "items": ["JAVA","+","XML","C++","IDE Android Studio versión 3.5","SqLite","Esp32","QrCode", "phpmyadmin", "MySql"]
+            },
+        "requirements": 
+            {
+                "items": [
+                    " Autenticación",
+                    " ESP32 configurado como servidor",
+                    " Gambia tiempo de cambio de estado",
+                    " Geolocalización del semáforo en interface Android",
+                    " Genera el código en c++ para ejecutar los cambios de luces",
+                    " Utilización de EPROM de esp32",
+                    " Visualización de secuencias",
+                    " Creación de grupos de semáforos a partir de una trama de datos"
+                ]
+            }
+        
+    },
+
+    {
+
+        "id": "video6",
+        "title": "Colombia Emprendedor",
+        "description": "Pagina web y tienda online de productos en venta producidos por artesanos de la comunidad registrada.",
+        "fetch": "Junio de 2021",
+        "state": "ON-LINE",
+        "url": "https://colombiaemprendedor.com/",
+        "technologies": 
+            {
+                "items": ["PHP","Laravel","HTML5","CSS3","jQuery","Api(payu)","phpmyadmin", "MySql","Cpanel"]
+            },
+        "requirements": 
+            {
+                "items": [
+                    " Pago de productos on-line (integración payu)",
+                    " Mòdulo para rgistro de productos",
+                    " Redes Sociales",
+                    " Galerìa de imagenes",
+                    " Videos Alojados en yotube de promoción"
+                ]
+            }
+        
+    }, 
+    {
+
+        "id": "video7",
+        "title": "Tienda CamStyle",
+        "description": "Tienda online y panel de administración de productos de belleza y cuidado corporal, agentda de citas vinculadas a whatsApp.",
+        "fetch": "Septiembre de 2023",
+        "state": "ON-LINE",
+        "url": "https://camstyle.co/",
+        "technologies": 
+            {
+                "items": ["PHP","Laravel","HTML5","CSS3","jQuery","WhatsApp","phpmyadmin", "MySql", "Cpanel"]
+            },
+        "requirements": 
+            {
+                "items": [
+                    " Pago de productos on-line (integración WhatsApp)",
+                    " Mòdulo para rgistro de productos",
+                    " Redes Sociales",
+                    " Galerìa de imagenes",
+                    " Solicitud de citas",
+                    " Panel de administración (editar,registrar, eliminar) productos",
+                    " Envío de email(Recaptcha)"
+
+
+                ]
+            }
+        
+    }
+    , 
+    {
+
+        "id": "video8",
+        "title": "Lina Rojas(Consejo)",
+        "description": "Pagina web utlizada para impulsar campaña politica de aspirante al consejo de Jardìn, Antioquia.",
+        "fetch": "agosto de 2023",
+        "state": "ON-LINE",
+        "url": "https://linajrojas.com/",
+        "technologies": 
+            {
+                "items": ["PHP","Laravel","HTML5","CSS3","jQuery","phpmyadmin", "MySql", "Cpanel"]
+            },
+        "requirements": 
+            {
+                "items": [
+                    " Envío de mails(captcha)",
+                    " Redes Sociales",
+                    " Galerìa de imagenes",
+                    " Solicitud de citas"
+                ]
+            }
+        
+    }
+
+
+
+]
+
+
+
