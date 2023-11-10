@@ -37,8 +37,6 @@
 
 </head>
 <body>
-
-
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container">
             <div class="row">
@@ -78,16 +76,10 @@
                 </div>
             </div>
         </div>
+
+
+        
     </div>
-
-
-<div>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</div>
-git push https://$(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)@github.com/camiso2/crearsoft.git
-
-git remote add origin https://<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>@github.com/camiso2/crearsoft.git
-
-
-
 </body>
 </html>
 
