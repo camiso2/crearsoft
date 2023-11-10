@@ -54,7 +54,7 @@
         "experience": "+9 Años",
         "sub-technologies": 
             {
-                "type": ["VUE.JS","JQUERY","HTML5","CSS3","JS","TypeScript","UX","UI","RESPONSIVE","Dashboards"]
+                "type": ["VUE.JS","JQUERY","HTML5","CSS3","JS","TypeScript","UX","UI","RESPONSIVE","Dashboards", "AJAX", "axios", "nodejs"]
             }
 
     },

@@ -14,7 +14,7 @@ class cvController extends Controller
 
 
 
-    public function cv_jaiver()
+    public function cvjaiver()
 
     {
 
@@ -24,7 +24,7 @@ class cvController extends Controller
         $data_videos = file_get_contents("videos.json");
         $project = json_decode($data_videos, true);
 
-        return view('cv_jaiver', compact('technologies',"project"));
+        return view('cvjaiver', compact('technologies',"project"));
     }
 
 
@@ -35,10 +35,10 @@ class cvController extends Controller
         //dd($request->all());
         $this->validate($request, [
             '_token'=>'required',
-            'name'=>'required|max:30|string',
-            'company'=>'required|max:30|string',
-            'email' => 'required|email|max:50|string',
-            'mensaje'=>'required|max:200|string'
+            'name'=>'required|max:30|min:3|string',
+            'company'=>'required|max:30|min:2|string',
+            'email' => 'required|email|max:50|min:3|string',
+            'mensaje'=>'required|max:200|min:4|string'
         ]);
      
 
@@ -48,12 +48,12 @@ class cvController extends Controller
            $rules, 
              // Mensaje de error personalizado 
             [ 'g-recaptcha-response' => 'El captcha ingresado es incorrecto.']
-       ); 
+        ); 
       
         if ($validator->passes()) { 
 
             $mensaje  = "";
-            $para     = 'info@crearsoft.co';
+            $para     = 'camiso2@gmail.com';
             $titulo   = 'Email enviado desde formulario de mensajes crearsoft.co/cv_jaiver';
             $mensaje .= "Una persona se suscribió te escribiò : " . "\n\n";
             $mensaje .= "Nombre: " . $request->input('name'). "\n\n";
@@ -70,7 +70,7 @@ class cvController extends Controller
                 $message= (string) "Hola ".$request->input('nombre').", en poco tiempo daré respuesta a su mensaje.";
                // $messageWhatsApp  = str_replace(" ","%",$ar);
                 //return redirect()->back()->with(compact('$messageWhatsApp'));
-                return Redirect::back()->with('success', $message)->with('error_form', $request);;
+                return Redirect::back()->with('success', $message);
 
               }
         } else { 

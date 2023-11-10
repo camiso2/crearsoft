@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/cv_jaiver', 'cvController@cv_jaiver')->name('cv_jaiver_ocampo');
+Route::get('/cvjaiver', 'cvController@cvjaiver')->name('cvjaiver');
 Route::post('/contact_cv', 'cvController@contact_cv')->name('contact_cv');
 
